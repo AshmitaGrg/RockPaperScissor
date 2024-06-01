@@ -1,0 +1,50 @@
+*{
+    margin : 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    height: 100px;
+    background-color: #686868;
+    color: #ffffff;
+    line-height: 100px;
+}
+
+.choices{
+    margin: 1rem 0;
+}
+.choices button{
+    font-size: 12rem;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 1rem;
+    border-radius: 50%;
+}
+.choices button:hover{
+    cursor: pointer;
+    background-color:#CBC5EA;
+}
+
+.choose{
+    font-size: 2rem;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.resultDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    gap: 6rem;
+}
+
+#playerResult , #compResult{
+    font-size: 6rem;
+}
+
+#msg{
+    font-size: 10rem;
+}
